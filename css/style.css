@@ -1,0 +1,46 @@
+* {
+    font-family: 'Verdana', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+div {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    display: 100%;
+    justify-content: baseline;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+input {
+    text-align: center;
+    font-size: 45px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px gray solid;
+    margin-bottom: 3px; 
+}
+button {
+    font-size: 36px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+    width: 50px;
+    margin: 0 5px;
+    padding: 0px 0px 5px 0px;
+}
+button:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+#ops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
